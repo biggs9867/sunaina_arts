@@ -1,0 +1,102 @@
+2023-01-20T01:36:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Art Shop\wp-includes\Requests\Transport\cURL.php on line 484
+
+2023-01-20T01:39:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Art Shop\wp-includes\Requests\Transport\cURL.php on line 484
+
+2023-01-20T02:57:55+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\Art Shop\wp-includes\theme.php:1342
+Stack trace:
+#0 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1342): sprintf('http://localhos...', 'http://localhos...', 'http://localhos...')
+#1 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1363): _get_random_header_data()
+#2 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1179): get_random_header_image()
+#3 C:\xampp\htdocs\Art Shop\wp-content\themes\grow\header.php(32): get_header_image()
+#4 C:\xampp\htdocs\Art Shop\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Art Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\Art Shop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\Art Shop\wp-content\themes\grow\page.php(10): get_header()
+#8 C:\xampp\htdocs\Art Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Art Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Art Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\Art Shop\wp-includes\theme.php on line 1342
+
+2023-01-20T02:58:10+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\Art Shop\wp-includes\theme.php:1342
+Stack trace:
+#0 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1342): sprintf('http://localhos...', 'http://localhos...', 'http://localhos...')
+#1 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1363): _get_random_header_data()
+#2 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1179): get_random_header_image()
+#3 C:\xampp\htdocs\Art Shop\wp-content\themes\grow\header.php(32): get_header_image()
+#4 C:\xampp\htdocs\Art Shop\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Art Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\Art Shop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\Art Shop\wp-content\themes\grow\page.php(10): get_header()
+#8 C:\xampp\htdocs\Art Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Art Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Art Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\Art Shop\wp-includes\theme.php on line 1342
+
+2023-01-20T02:58:17+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\Art Shop\wp-includes\theme.php:1342
+Stack trace:
+#0 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1342): sprintf('http://localhos...', 'http://localhos...', 'http://localhos...')
+#1 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1363): _get_random_header_data()
+#2 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1179): get_random_header_image()
+#3 C:\xampp\htdocs\Art Shop\wp-content\themes\grow\header.php(32): get_header_image()
+#4 C:\xampp\htdocs\Art Shop\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Art Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\Art Shop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\Art Shop\wp-content\themes\grow\archive.php(8): get_header()
+#8 C:\xampp\htdocs\Art Shop\wp-content\themes\grow\index.php(8): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Art Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Art Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Art Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\Art Shop\wp-includes\theme.php on line 1342
+
+2023-01-20T02:58:37+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\Art Shop\wp-includes\theme.php:1342
+Stack trace:
+#0 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1342): sprintf('http://localhos...', 'http://localhos...', 'http://localhos...')
+#1 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1363): _get_random_header_data()
+#2 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1179): get_random_header_image()
+#3 C:\xampp\htdocs\Art Shop\wp-content\themes\grow\header.php(32): get_header_image()
+#4 C:\xampp\htdocs\Art Shop\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Art Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\Art Shop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\Art Shop\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(9): get_header()
+#8 C:\xampp\htdocs\Art Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Art Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Art Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\Art Shop\wp-includes\theme.php on line 1342
+
+2023-01-20T02:59:03+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\Art Shop\wp-includes\theme.php:1342
+Stack trace:
+#0 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1342): sprintf('http://localhos...', 'http://localhos...', 'http://localhos...')
+#1 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1363): _get_random_header_data()
+#2 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1179): get_random_header_image()
+#3 C:\xampp\htdocs\Art Shop\wp-content\themes\grow\header.php(32): get_header_image()
+#4 C:\xampp\htdocs\Art Shop\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Art Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\Art Shop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\Art Shop\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(9): get_header()
+#8 C:\xampp\htdocs\Art Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Art Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Art Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\Art Shop\wp-includes\theme.php on line 1342
+
+2023-01-20T02:59:28+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\Art Shop\wp-includes\theme.php:1342
+Stack trace:
+#0 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1342): sprintf('http://localhos...', 'http://localhos...', 'http://localhos...')
+#1 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1363): _get_random_header_data()
+#2 C:\xampp\htdocs\Art Shop\wp-includes\theme.php(1179): get_random_header_image()
+#3 C:\xampp\htdocs\Art Shop\wp-content\themes\grow\header.php(32): get_header_image()
+#4 C:\xampp\htdocs\Art Shop\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Art Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\Art Shop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\Art Shop\wp-content\themes\grow\archive.php(8): get_header()
+#8 C:\xampp\htdocs\Art Shop\wp-content\themes\grow\index.php(8): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Art Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Art Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Art Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\Art Shop\wp-includes\theme.php on line 1342
+

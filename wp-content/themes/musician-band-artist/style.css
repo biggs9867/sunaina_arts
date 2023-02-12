@@ -1,0 +1,171 @@
+/*
+Theme Name: Musician Band Artist
+Theme URI: https://www.vwthemes.com/themes/free-musician-wordpress-theme/ 
+Author: VWthemes
+Author URI: https://www.vwthemes.com
+Description: Musician Band Artist is a theme based on music and art. This theme is a great deal for artists, audio, band, music artist, music label, music recording, audio podcast, radio, music players, music stores, and more websites related to the music world. It is a responsive WP theme with multiple features. Features like different sections and layouts. The theme is secure and clean-coded, and users do not need to know any coding language to operate it. Multiple layouts and 100+ google fonts are available for customization. Users can easily customize the theme for their site and requirement. The theme is completely stunning and user-friendly. With this theme, the users will be beneficial for all the musicians and the music industry as it has sophisticated sections such as the Team section, Testimonial section, Services section, and other types of sections with custom post type. Also, it has a slider with an unlimited number of slides option. All Musician Band Artists, music events, music festivals, music labels, music producers, and music shop websites can use this theme. This easy-to-use theme comes with social icons so users can showcase their products and services to the world and grow their business worldwide. Demo: https://www.vwthemes.net/vw-musician-band-artist/
+Template: music-recording-studio
+Requires at least: 5.0
+Tested up to: 6.1
+Requires PHP: 7.2
+Version: 0.1.3
+License: GPLv3.0 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: musician-band-artist
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, flexible-header, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, full-width-template, theme-options, threaded-comments, post-formats, photography, entertainment, e-commerce
+*/
+
+body{
+	font-family: 'Archivo';
+}
+/*-----------Topbar-----------*/
+#topbar {
+    background: #1a1a1a;
+}
+#topbar a, #topbar span, #topbar p, #slider .inner_carousel h1 a, #slider .inner_carousel p{
+    color: #fff;
+}
+#topbar .social-icons .widget p {
+  display: inline-block;
+}
+#topbar .social-icons .widget a {
+  background: transparent;
+  color: #fff;
+  margin-right: 15px;
+}
+#topbar .social-icons .widget a:hover, p.site-title a:hover, .logo h1 a:hover{
+	color: #DE3960;
+	transition-duration: 0.1s;
+}
+/*-----------Header-----------*/
+.logo {
+    padding: 5px 0px 10px 0px;
+    border-right: 1px solid #fff;
+}
+p.site-title, p.site-description{
+    margin-bottom: 0;
+}
+.page-template-custom-home-page .main-header, .page-template-ibtana-page-template .main-header{
+	backdrop-filter:blur(30px);
+}
+.main-navigation a{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+}
+.page-template-custom-home-page .main-navigation a{
+	color: #fff;
+	text-transform: uppercase;
+}
+.main-navigation ul li a:hover {
+    background: transparent;
+    color: #FF8257;
+}
+.main-navigation ul.sub-menu>li>a:before{
+	background: #FF8257;
+}
+.main-navigation ul ul a {
+    color: #222 !important;
+}
+.main-navigation ul li a:hover {
+    background: transparent;
+    color: #FF8257 !important;
+}
+.header-btn a, .seemore-btn a, #slider .more-btn a{
+    color: #fff;
+    background: #DE3960;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 1;
+}
+.header-btn a:hover, .seemore-btn a:hover {
+	background: #FF8257;
+}
+.header-btn {
+    border-left: 1px solid #fff;
+}
+.header-menu {
+    border-bottom: 1px solid #fff;
+}
+.post-categories li a{
+	color: #fff !important;
+	font-weight: 600;
+}
+/*-----------Slider-----------*/
+#slider .carousel-caption{
+	left: 15%;
+    right: 50%;
+}
+#slider .carousel-control-next i, #slider .carousel-control-prev i{
+	background: #DE3960;
+	border:  none;
+	color: #fff;
+}
+#slider img {
+	width: 100%;
+	object-fit: cover;
+}
+/*-----------About-----------*/
+.about-head strong{
+	color: #FF8257;
+}
+.abt-cont i{
+    color: #fff;
+    background: #DE3960;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 25px;
+}
+span.abt-serv {
+    color: #121212;
+    font-weight: 500;
+    font-size: 22px;
+}
+.abt-cont p {
+    line-height: 1.8;
+    font-size: 16px;
+    color: #121212;
+}
+/*----------- PRELOADER ----------*/
+#preloader {
+  background-color: #DE3960;
+}
+.post-categories li a:hover{
+	background: #DE3960;
+	color: #fff;
+}
+/*-----------Media-----------*/
+@media screen and (max-width: 767px){
+	#topbar span, #topbar a{
+		display: block;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	#slider .carousel-control-next, #slider .carousel-control-prev{
+		width: 12%;
+	}
+	#slider .carousel-control-next i, #slider .carousel-control-prev i{
+		padding: 12px 14px;
+	}
+	.abt-cont {
+    margin-top: 20px;
+	}
+}
+@media screen and (max-width: 1000px){
+	.page-template-custom-home-page .main-header, .page-template-ibtana-page-template .main-header{
+		backdrop-filter: none;
+	}
+	.page-template-custom-home-page .main-navigation a{
+		color: #000;
+	}
+}
+@media screen and (min-width: 768000px) and (max-width: 1200px){
+	.header-btn a{
+		font-size: 13px;
+	}
+}

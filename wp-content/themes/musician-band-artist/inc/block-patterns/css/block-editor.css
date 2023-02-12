@@ -1,0 +1,86 @@
+.main-banner-section h1 ,
+.main-banner-section p ,
+.main-banner-section .wp-block-button__link,
+.about-us-section a.wp-block-button__link ,
+.about-section-para,
+.about-us-section-quality,
+.about-us-section h2,
+.about-section p{
+  font-family: 'Archivo' !important;
+}
+/*banner section*/
+.main-banner-section h1{
+	font-weight: 700;
+	line-height: 1.2;
+}
+.main-banner-section p{
+	line-height: 1.8;
+	font-weight: 400;
+}
+.main-banner-section .wp-block-button__link{
+    padding: 10px 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    text-decoration: none !important;
+}
+.main-banner-section .wp-block-button .wp-block-button__link:hover,.wp-block-button .wp-block-button__link:focus{
+ 	background: #de3960;
+    color: #fff !important;
+    border: 1px solid #de3960 !important;
+    box-shadow: unset;
+}
+.main-banner-section .wp-block-button .wp-block-button__link:before{
+	content: "\f04b";
+	font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding: 10px;
+}
+/*about us section*/
+.about-section-para {
+	line-height: 1.5;
+	text-transform: uppercase !important;
+}
+.about-us-section .wp-block-button__link{
+	text-decoration: none !important;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 1;
+    font-family: 'Archivo';
+}
+.about-us-section .wp-block-button__link:hover{
+ 	background: #FF8257 !important;
+ 	color: #fff !important;
+    border: 1px solid #FF8257 !important;
+    box-shadow: unset;
+}
+.about-us-section-satisfaction:before{
+ 	color: #fff;
+    background: #DE3960;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f118";
+    margin-right: 20px;
+}
+.about-us-section-quality{
+  	margin-top: 30px;
+  	margin-bottom: 30px;
+}
+.about-us-section-quality:before{
+ 	color: #fff;
+    background: #DE3960;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f002";
+    margin-right: 20px;
+}
